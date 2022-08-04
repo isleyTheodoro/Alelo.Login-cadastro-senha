@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+
+        <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+<body>
+    
+    
+    
+    <div id="container-pai">
+
+        <h1 ><img  src="./img/alelo-logo.png" alt="" width="160px"></h1>
+        
+        <div class="container-filho">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome:">
+
+            <label  for="dataNacimento">Data de nascimento</label>
+            <input class="nascimento" type="date" name="nascimento" id="nascimento">
+
+            <label for="email">Digite um e-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail:">
+
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite uma senha:">
+
+            <label for="senha">Confirme a senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Confirme a senha:">
+            
+            <label  for="Genero">Genero:</label>
+           
+            <div class="genero">
+                <input type="radio" name="Genero" value="M" id="Genero"> <p class="genero"> Masculino</p>
+                <input type="radio" name="Genero" value="F" id="Genero"> <p class="genero"> Feminino </p>
+            </div> 
+
+            <hr>
+
+            <fieldset>
+                <legend>Dados do cartão</legend>
+
+            <label for="cartao">Digite o numero do Cartão</label>
+            <input type="text" name="cartao" id="cartao" placeholder="Ex: XXXX XXXX XXXX XXXX">
+
+            <label for="cartao">Validade com Mês/Ano </label>
+            <input class="nascimento" type="month" name="" id="">    
+
+         
+            </fieldset>  
+            <hr>    
+
+
+            <div class="botao">
+                <input type="button" value="Enviar">
+            </div>
+            
+            <div id="rodape">
+                &copy:Todos os direitos reservados
+            </div>
+
+        
+            
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
